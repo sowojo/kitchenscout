@@ -1,0 +1,77 @@
+/* 데스크탑 브라우저 가로 */
+@media only screen and (min-width : 800px) {
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+div {
+    display: block;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p{
+    margin-top: 0px;
+}
+
+.box1 {
+    width: 300px;
+    height: 600px;
+    float: left;
+    padding: 0px 40px 80px 0px;
+}
+
+.box2 {
+    width: 400px;
+    height: 250px;
+    float: left;
+    padding: 0px 40px 80px 0px;
+}
+
+}
+
+
+
+ /* 스마트폰 세로 */
+@media only screen and (max-width : 800px) {
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+div {
+    display: block;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p{
+    margin-top: 0px;
+}
+
+.box1 {
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding: 0px 40px 80px 0px;
+}
+
+.box2 {
+    width: 400px;
+    height: 250px;
+    float: left;
+    padding: 0px 40px 80px 0px;
+}
+
+}
