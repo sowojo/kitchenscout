@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+    
+    
+<head>
+	<title>반응형 포스터 워크샵</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/base.css">
+
+	<style type="text/css">
+/* * { transition: all .2s; }**/
+		
+		body {
+			background-color: grey;
+            
+		}
+        
+        a{
+            color:lawngreen;
+            text-decoration: none;
+        }
+        
+         a:hover{
+            color:coral;
+        }
+		 
+        .container{
+            background-image: url(pic1.jpg);
+            background-size:cover;
+        }
+        
+        .picture{
+            position: absolute;
+            height:150vh;
+        }
+        
+      .background{
+            position: absolute;
+            background-color: white;  
+            top: 5vh;
+            left: 30vw;
+            transform: rotate(-15deg);
+            width: 40vw;
+            height: 80vh;
+        }
+        
+        .kitchen{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        .kitchen2{
+            font-size: 50px;
+            font-weight: bold;
+            line-height: 1.2em;
+        }
+        
+        .text-1{
+            position: absolute;
+            
+			top: 10px;
+            left: 10px;
+            background-color: white;
+
+            
+        }
+        
+        
+        
+        
+		/* 이 주석 위의 스타일은 창 너비 600px, 높이 400px 미만에서 적용된다. */
+		/* 최소 창 높이 400px 이상에서는 아래 스타일이 적용된다. */
+		@media (min-height: 400px) {       
+		
+        
+        }
+		/* 최소 창 너비 600px 이상에서는 아래 스타일이 적용된다. */
+		@media (min-width: 600px) {
+
+            
+        }
+		/* 최소 창 너비 600px, 최소 창 높이 400 px 이상에서는 아래 스타일이 적용된다. */
+		@media (min-width: 600px) and (min-height: 400px) {
+
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<!-- 이 줄 위에는 아무것도 추가하지 않기! -->
+	<div class="container">
+        
+		<!-- 모든 html 요소는 container div 안에 넣는다. -->
+
+<!--        <img class="picture" src="pic1.jpg">-->
+
+        
+        <div class="background">
+            
+        <div class="text-1">
+        <p class="kitchen">키친스카우트.kitchen scout</p>
+            <br>
+            <br>
+        
+            
+        <p class="kitchen2">
+            키친스카우트는 시장의 조력자입니다. 키친스카우트는 엄청나게 어썸한 조직입니다. 우리의 <a href="">키트 안내</a>를 보시고 <a href="">주문</a>과 <a href="">제작</a>을 해주십시오. 
+        </p>
+        </div>
+        
+                
+			</div>
+			
+	</div>
+	<!-- 이 줄 아래에는 아무것도 추가하지 않기! -->
+
+</body>
+
+</html>
